@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Splash&family=The+Nautigal&family=Ubuntu:wght@300&display=swap');
+body{
+    background-color: linen;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type:none;
+    height:70px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding : 0 12px;
+}
+
+.brand img{
+    width:44px;
+    padding : 0 8px
+}
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container h1{
+    font-family: 'Splash', 'cursive';
+    font-size: 45px;
+}
+.container{
+    min-height: 70vh;
+   background-color: black;
+    color:white;
+   /*font-family: 'Varela Round', sans-serif; */
+   font-style: italic;
+   font-weight:900;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('PV17Zx.webp'); 
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 95px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+
+}
+.icons
+{
+    margin-top: 10px;
+}
+#myProgressBar{
+    width: 80vw; 
+    cursor: pointer; 
+}
+.SongItemContainer{
+    margin-top: 60px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color:white;
+    width:138%;
+    color: black;
+    margin: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 px;
+    padding: 20px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songinfo
+{
+    position: absolute;
+    left:22vh;
+    margin-top: 20px;
+}
+.songinfo img{
+    border-radius: 25px;
+    opacity:0;
+    transition:opacity 0.4s ease-in;
+}
